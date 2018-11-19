@@ -1,0 +1,10 @@
+.button-list{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.button-list li{
+    float:left;
+    margin:5px;
+}
