@@ -1,0 +1,24 @@
+{
+  "name": "major_issue",
+  "version": "1.0.0",
+  "description": "Final year project for third year Computer Science at the University of Portsmouth. A issuetracker site integrated with github to provide an improved issue tracking experence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "issue",
+    "tracker",
+    "github",
+    "api",
+    "finalyearproject",
+    "final",
+    "year",
+    "project"
+  ],
+  "author": "Shaun Porter",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
