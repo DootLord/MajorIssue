@@ -1,3 +1,16 @@
+/** Colour Scheme 
+
+Main (Main elements, background to elements), Secondary elements, buttons/ highlights, text colour
+
+#4abdac
+#fc4a1a
+#f7b733
+#dfdce3
+**/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 .button-list{
     list-style-type:none;
     margin:0;
@@ -7,4 +20,24 @@
 .button-list li{
     float:left;
     margin:5px;
+}
+
+header{
+    background-color: #4abdac;
+    height: 50px;
+}
+
+header .title{
+    color:white;
+    font-size: 35px;
+    text-shadow: 3px 2px 0px rgba(0,0,0,0.2);
+}
+
+header img{
+    height:50px;
+    width:50px;
+}
+
+.repo-container{
+    border-style:inset;
 }
