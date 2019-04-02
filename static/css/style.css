@@ -7,6 +7,37 @@ Main (Main elements, background to elements), Secondary elements, buttons/ highl
 #f7b733
 #dfdce3
 **/
+html{
+    background-color:#36393f;
+}
+
+aside h4{
+    color:white;
+}
+
+aside h5{
+    
+}
+
+.collection-container{
+    display: inline-table;
+    -webkit-box-shadow: -2px 2px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+
+.collection-container h4 {
+    color:white;
+}
+
+.collection-container h5{
+    color:white;
+}
+
+#issue-list h5{
+    color:black;
+}
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -23,19 +54,32 @@ Main (Main elements, background to elements), Secondary elements, buttons/ highl
 }
 
 header{
-    background-color: #4abdac;
+    background-color: #202225;
     height: 50px;
+    margin-bottom: 2px !important;
 }
 
 header .title{
     color:white;
     font-size: 35px;
     text-shadow: 3px 2px 0px rgba(0,0,0,0.2);
+    width: 500px;
+    margin: 0px;
+    float: left;
+}
+
+header .user-area{
+    width: 200px;
+    float: right;
+    background-color:#2f3136;
 }
 
 header img{
-    height:50px;
     width:50px;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    float: right;
 }
 
 .repo-container{
